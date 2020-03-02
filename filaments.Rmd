@@ -1,0 +1,16 @@
+---
+title: "Filaments"
+author: "David Gabbé"
+date: "3/2/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1.75mm Filaments
+
+Alphabetized list of which filaments & settings used.
+
+### SunLo Plus PLA - silver

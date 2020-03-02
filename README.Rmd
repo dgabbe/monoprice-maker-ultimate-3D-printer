@@ -1,0 +1,27 @@
+---
+title: "Untitled"
+author: "David Gabbé"
+date: "2/28/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Monoprice Maker Ultimate 3D Printer MK11 DirectDrive Extruder / 24V Power System
+
+Notes on setup/configuration for this Wanhao Duplicator 6 clone.
+
+## Accessories
+
+* 1mm feeler gauge
+* 0.004" feeler gauge
+
+## Resources
+
+* add Monoprice manual
+* add Wanhao manual
+
+https://www.thingiverse.com/thing:42528
+
