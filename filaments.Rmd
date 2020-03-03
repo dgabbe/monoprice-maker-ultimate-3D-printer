@@ -11,6 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## 1.75mm Filaments
 
-Alphabetized list of which filaments & settings used.
+Alphabetized list of filaments & settings used.
 
-### SunLo Plus PLA - silver
+### SUNLU PLA Plus, +/- 0.02 mm - silver

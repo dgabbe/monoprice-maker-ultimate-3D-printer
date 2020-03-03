@@ -13,6 +13,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Notes on setup/configuration for this Wanhao Duplicator 6 clone.
 
+* Name: Monoprice Maker Ultimate 3D Printer, MK11 direct drive extruder / 24V power system.
+* Rear tag: Monoprice Maker Select Pro Ultimate 3D Printer
+* Part no: 15710
+* Firmware: DEV 3.01
+
+Status when unpacked:
+
+* Machine on: 21:06
+* Printing: 7:05
+* Material: 12m
+
 ## Accessories
 
 * 1mm feeler gauge
