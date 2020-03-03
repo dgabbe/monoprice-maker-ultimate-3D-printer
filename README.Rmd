@@ -1,8 +1,8 @@
 ---
-title: "Untitled"
+title: "Monoprice Ultimate 3D Printer"
 author: "David Gabbé"
 date: "2/28/2020"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
@@ -26,13 +26,29 @@ Status when unpacked:
 
 ## Accessories
 
-* 1mm feeler gauge
-* 0.004" feeler gauge
+* [1mm feeler gauge](https://www.mcmaster.com/2283a26)
+* [0.004" feeler gauge](https://www.mcmaster.com/20385a34)
+* [0.015" dia High-Speed M2 Tool Steel Rod](https://www.mcmaster.com/3009a297) for unclogging nozzle. Will compare effectiveness to sewing needle.
+
+## Filaments
+
+See [filaments.md](./filaments.md) for settings and experience with different materials.
+
+## Printer Settings & Tuning
+
+_Likely to move to its own page_
+
+The build leveling function does not offer a way to cancel out once started. There is no built-in feature to review the bed levelness.
+
+This info is unvetted:
+
+* https://www.youtube.com/watch?v=aYVuz9ccZL8
 
 ## Resources
 
-* add Monoprice manual
-* add Wanhao manual
+* [Thingiverse collection](https://www.thingiverse.com/Printer3D_One/collections/wanhao-duplicator-6-d6-amp-monoprice-maker-ultimate-printed-parts-and-improvements) of various parts
+* [Monoprice manual](https://downloads.monoprice.com/files/manuals/15710_Manual_160622.pdf)
+* [Wanhao manual](http://www.wanhao3dprinter.com/xiazai/D6_User_Manual_REV_A.pdf). The Wanhao manual is easier to understand than the Monoprice one.
 
 https://www.thingiverse.com/thing:42528
 

@@ -2,7 +2,7 @@
 title: "Filaments"
 author: "David Gabbé"
 date: "3/2/2020"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
