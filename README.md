@@ -56,8 +56,8 @@ Easiest to start with PLA filament because it’s the most forgiving.
 
 1.  Check build level using the printer’s LCD menu option
 2.  &lt;&lt;Select a slicer program - add more details&gt;&gt;
-3.  Create a slicer profile based on Monoprice’s info in [their
-    manual](https://downloads.monoprice.com/files/manuals/15710_Manual_160622.pdf).
+3.  Create a slicer profile based on Monoprice’s info
+    ![settings](./images/slicer-settings.png).
 
 ### Test Objects
 
@@ -134,6 +134,13 @@ Resources
 -   [Wanhao
     manual](http://www.wanhao3dprinter.com/xiazai/D6_User_Manual_REV_A.pdf).
     The Wanhao manual is easier to understand than the Monoprice one.
+
+Modifications and Settings
+--------------------------
+
+-   [cnorth’s
+    settings](https://www.thingiverse.com/groups/wanhao-duplicator-6/forums/general/topic:17580)
+-   <a href="https://othermod.com/turn-a-monoprice-maker-ultimate-or-wanhao-duplicator-6-into-an-ultimaker-2/" class="uri">https://othermod.com/turn-a-monoprice-maker-ultimate-or-wanhao-duplicator-6-into-an-ultimaker-2/</a>
 
 Do Dads
 -------
