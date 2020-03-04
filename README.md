@@ -1,8 +1,12 @@
+`[r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)`
+
 Monoprice Maker Ultimate 3D Printer MK11 Direct Drive Extruder / 24V Power System
 ---------------------------------------------------------------------------------
 
 Notes on setup/configuration for this Wanhao Duplicator 6 clone.
 Interestingly, it appears the Wanhao firmware is used in the Monoprice.
+The manual also uses this name “Maker Select Pro Ultimate 3D” for the
+printer.
 
 -   Name: Monoprice Maker Ultimate 3D Printer, MK11 direct drive
     extruder / 24V power system.
@@ -59,32 +63,28 @@ Easiest to start with PLA filament because it’s the most forgiving.
 
 ### Test Objects
 
+*This section will be updated based on experiences w/using these tests*
+
 Be sure to read the instructions for which settings to use.
 
--   (The Essential Calibration
-    Set)\[<a href="https://www.thingiverse.com/thing:5573" class="uri">https://www.thingiverse.com/thing:5573</a>\]
--   (XY 20 mm Calibration
-    Box)\[<a href="https://www.thingiverse.com/thing:298812" class="uri">https://www.thingiverse.com/thing:298812</a>\]
--   (All In One 3D Printer
-    test)\[<a href="https://www.thingiverse.com/thing:2656594" class="uri">https://www.thingiverse.com/thing:2656594</a>\]
-    or the (micro sized
-    version)\[<a href="https://www.thingiverse.com/thing:2975429" class="uri">https://www.thingiverse.com/thing:2975429</a>\]
-    or the (mini sized
-    version)\[<a href="https://www.thingiverse.com/thing:2806295" class="uri">https://www.thingiverse.com/thing:2806295</a>\]
--   (Benchy)\[<a href="https://www.thingiverse.com/thing:763622" class="uri">https://www.thingiverse.com/thing:763622</a>\]
--   (Bed Leveling Calibration Test Object
-    (Parametric))\[<a href="https://www.thingiverse.com/thing:34558" class="uri">https://www.thingiverse.com/thing:34558</a>\]
--   (Print Temperature Calibration
-    Piece)\[<a href="https://www.thingiverse.com/thing:35088" class="uri">https://www.thingiverse.com/thing:35088</a>\]
--   (Deterministic Retraction
-    Calibration)\[<a href="https://www.thingiverse.com/thing:1065179" class="uri">https://www.thingiverse.com/thing:1065179</a>\]
--   (Part Fitting
-    Calibration)\[<a href="https://www.thingiverse.com/thing:342198" class="uri">https://www.thingiverse.com/thing:342198</a>\]
--   (Test your 3D printer!
-    v2)\[<a href="https://www.thingiverse.com/thing:1019228" class="uri">https://www.thingiverse.com/thing:1019228</a>\]
-    Have not tried [v3](https://www.thingiverse.com/thing:1363023)
--   ()\[\]
--   ()\[\]
+-   [The Essential Calibration
+    Set](https://www.thingiverse.com/thing:5573)
+-   [XY 20 mm Calibration Box](https://www.thingiverse.com/thing:298812)
+-   [All In One 3D Printer
+    test](https://www.thingiverse.com/thing:2656594) or the [micro sized
+    version](https://www.thingiverse.com/thing:2975429) or the [mini
+    sized version](https://www.thingiverse.com/thing:2806295)
+-   [Benchy](https://www.thingiverse.com/thing:763622)
+-   [Bed Leveling Calibration Test Object
+    (Parametric)](https://www.thingiverse.com/thing:34558)
+-   [Print Temperature Calibration
+    Piece](https://www.thingiverse.com/thing:35088)
+-   [Deterministic Retraction
+    Calibration](https://www.thingiverse.com/thing:1065179)
+-   [Part Fitting Calibration](https://www.thingiverse.com/thing:342198)
+-   [Test your 3D printer!
+    v2](https://www.thingiverse.com/thing:1019228) Have not tried
+    [v3](https://www.thingiverse.com/thing:1363023)
 
 ### Resources
 
@@ -92,10 +92,9 @@ These articles were used in calibrating this printer:
 
 -   <a href="https://marlinfw.org/docs/configuration/configuration.html#sources-of-documentation" class="uri">https://marlinfw.org/docs/configuration/configuration.html#sources-of-documentation</a>
 -   <a href="https://reprap.org/wiki/Triffid_Hunter%27s_Calibration_Guide" class="uri">https://reprap.org/wiki/Triffid_Hunter%27s_Calibration_Guide</a>
--   (3D Nation
-    Guide)\[<a href="https://3dnation504795197.wordpress.com/guide/" class="uri">https://3dnation504795197.wordpress.com/guide/</a>\]
+-   [3D Nation Guide](https://3dnation504795197.wordpress.com/guide/)
 -   not used
-    (Marlin3DprinterTool)\[<a href="https://github.com/cabbagecreek/Marlin3DprinterTool" class="uri">https://github.com/cabbagecreek/Marlin3DprinterTool</a>\]
+    [Marlin3DprinterTool](https://github.com/cabbagecreek/Marlin3DprinterTool)
 
 This info is unvetted:
 
@@ -110,11 +109,13 @@ drive the printer’s different parts.
 
 ### Firmware
 
-The Monoprice is uses
+The Monoprice uses
 [Marlin](https://marlinfw.org/docs/basics/introduction.html#what-is-marlin?).
 Official support was added in ??build-get-reference??.
 
 ### Slicers
+
+&lt;<fill-in>&gt;
 
 G-code Details
 --------------

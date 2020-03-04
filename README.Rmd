@@ -1,17 +1,17 @@
 ---
-title: "Monoprice Ultimate 3D Printer"
+title: "Monoprice Maker Ultimate 3D Printer"
 author: "David Gabbé"
 date: "2/28/2020"
 output: md_document
 ---
 
-```{r setup, include=FALSE}
+```[r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Monoprice Maker Ultimate 3D Printer MK11 Direct Drive Extruder / 24V Power System
 
-Notes on setup/configuration for this Wanhao Duplicator 6 clone. Interestingly, it appears the Wanhao firmware is used in the Monoprice.
+Notes on setup/configuration for this Wanhao Duplicator 6 clone. Interestingly, it appears the Wanhao firmware is used in the Monoprice.  The manual also uses this name "Maker Select Pro Ultimate 3D" for the printer.
 
 * Name: Monoprice Maker Ultimate 3D Printer, MK11 direct drive extruder / 24V power system.
 * Rear tag: Monoprice Maker Select Pro Ultimate 3D Printer
@@ -55,19 +55,20 @@ Easiest to start with PLA filament because it's the most forgiving.
 
 ### Test Objects
 
+_This section will be updated based on experiences w/using these tests_
+
 Be sure to read the instructions for which settings to use.
 
-* (The Essential Calibration Set)[https://www.thingiverse.com/thing:5573]
-* (XY 20 mm Calibration Box)[https://www.thingiverse.com/thing:298812]
-* (All In One 3D Printer test)[https://www.thingiverse.com/thing:2656594] or the (micro sized version)[https://www.thingiverse.com/thing:2975429] or the (mini sized version)[https://www.thingiverse.com/thing:2806295] 
-* (Benchy)[https://www.thingiverse.com/thing:763622]
-* (Bed Leveling Calibration Test Object (Parametric))[https://www.thingiverse.com/thing:34558]
-* (Print Temperature Calibration Piece)[https://www.thingiverse.com/thing:35088]
-* (Deterministic Retraction Calibration)[https://www.thingiverse.com/thing:1065179]
-* (Part Fitting Calibration)[https://www.thingiverse.com/thing:342198]
-* (Test your 3D printer! v2)[https://www.thingiverse.com/thing:1019228] Have not tried [v3](https://www.thingiverse.com/thing:1363023)
-* ()[]
-* ()[]
+* [The Essential Calibration Set](https://www.thingiverse.com/thing:5573)
+* [XY 20 mm Calibration Box](https://www.thingiverse.com/thing:298812)
+* [All In One 3D Printer test](https://www.thingiverse.com/thing:2656594) or the [micro sized version](https://www.thingiverse.com/thing:2975429) or the [mini sized version](https://www.thingiverse.com/thing:2806295) 
+* [Benchy](https://www.thingiverse.com/thing:763622)
+* [Bed Leveling Calibration Test Object (Parametric)](https://www.thingiverse.com/thing:34558)
+* [Print Temperature Calibration Piece](https://www.thingiverse.com/thing:35088)
+* [Deterministic Retraction Calibration](https://www.thingiverse.com/thing:1065179)
+* [Part Fitting Calibration](https://www.thingiverse.com/thing:342198)
+* [Test your 3D printer! v2](https://www.thingiverse.com/thing:1019228) Have not tried [v3](https://www.thingiverse.com/thing:1363023)
+
 
 ### Resources
 
@@ -75,8 +76,8 @@ These articles were used in calibrating this printer:
 
 * https://marlinfw.org/docs/configuration/configuration.html#sources-of-documentation
 * https://reprap.org/wiki/Triffid_Hunter%27s_Calibration_Guide
-* (3D Nation Guide)[https://3dnation504795197.wordpress.com/guide/]
-* not used (Marlin3DprinterTool)[https://github.com/cabbagecreek/Marlin3DprinterTool]
+* [3D Nation Guide](https://3dnation504795197.wordpress.com/guide/)
+* not used [Marlin3DprinterTool](https://github.com/cabbagecreek/Marlin3DprinterTool)
 
 This info is unvetted:
 
@@ -88,15 +89,17 @@ The *slicer* is the software needed to turn a 3D model into G-code.  The printer
 
 ### Firmware
 
-The Monoprice is uses [Marlin](https://marlinfw.org/docs/basics/introduction.html#what-is-marlin?). Official support was added in ??build-get-reference??.
+The Monoprice uses
+[Marlin](https://marlinfw.org/docs/basics/introduction.html#what-is-marlin?). Official support was added in ??build-get-reference??.
 
 ### Slicers
 
-
+<<fill-in>>
 
 ## G-code Details
 
-There are variations in how each printer implements G-code. See [RepRap](https://reprap.org/wiki/G-code) for the reference specification.  Refer to [this page](https://marlinfw.org/meta/gcode/) for Marlin specifics.
+There are variations in how each printer implements G-code. See [RepRap](https://reprap.org/wiki/G-code) for the reference specification.  Refer to 
+[this page](https://marlinfw.org/meta/gcode/) for Marlin specifics.
 
 ## Resources
 
