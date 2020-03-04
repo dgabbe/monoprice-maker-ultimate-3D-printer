@@ -1,5 +1,3 @@
-`[r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)`
-
 Monoprice Maker Ultimate 3D Printer MK11 Direct Drive Extruder / 24V Power System
 ---------------------------------------------------------------------------------
 
