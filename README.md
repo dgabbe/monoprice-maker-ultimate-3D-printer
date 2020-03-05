@@ -4,7 +4,8 @@ Monoprice Maker Ultimate 3D Printer MK11 Direct Drive Extruder / 24V Power Syste
 Notes on setup/configuration for this Wanhao Duplicator 6 clone.
 Interestingly, it appears the Wanhao firmware is used in the Monoprice.
 The manual also uses this name “Maker Select Pro Ultimate 3D” for the
-printer.
+printer. Specific experience with an open box model is
+[here](./open-box-experience.md).
 
 -   Name: Monoprice Maker Ultimate 3D Printer, MK11 direct drive
     extruder / 24V power system.
@@ -19,11 +20,13 @@ Status when unpacked:
 -   Printing: 7:05
 -   Material: 12m
 
-Accessories
------------
+Tools
+-----
 
 -   [1mm feeler gauge](https://www.mcmaster.com/2283a26)
 -   [0.004" feeler gauge](https://www.mcmaster.com/20385a34)
+-   9mm 1/4" socket w/speed thumb wheel on ratchet
+-   Smooth jaw pliers
 -   [0.015" dia High-Speed M2 Tool Steel
     Rod](https://www.mcmaster.com/3009a297) for unclogging nozzle. Will
     compare effectiveness to sewing needle.
@@ -33,6 +36,12 @@ Filaments
 
 See [filaments.md](./filaments.md) for settings and experience with
 different materials.
+
+Profiles
+--------
+
+See [profiles.md](./profiles.md) saved printer profiles which include
+stock and custom ones.
 
 Printer Settings & Tuning
 -------------------------

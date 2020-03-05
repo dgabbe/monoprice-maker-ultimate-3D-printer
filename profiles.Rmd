@@ -1,0 +1,19 @@
+---
+title: "Profiles"
+author: "David Gabbé"
+date: "3/5/2020"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Profiles
+
+### PrusaSlicer
+
+### Cura
+
+* Offical Wanhao ones at bottom of [this page](https://www.printer3d.one/en/forums/topic/duplicator-6-d6-official-software-cura-wanhao-edition/). [Local copy](./profiles/cura/)
+
