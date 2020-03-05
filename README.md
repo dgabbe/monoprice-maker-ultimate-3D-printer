@@ -122,7 +122,7 @@ Official support was added in ??build-get-reference??.
 
 ### Slicers
 
-&lt;<fill-in>&gt;
+{fill-in}
 
 G-code Details
 --------------

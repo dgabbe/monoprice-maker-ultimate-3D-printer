@@ -100,7 +100,7 @@ The Monoprice uses
 
 ### Slicers
 
-<<fill-in>>
+{fill-in}
 
 ## G-code Details
 
