@@ -57,7 +57,7 @@ Easiest to start with PLA filament because it's the most forgiving.
 
 1. Check build level using the printer's LCD menu option
 1. <<Select a slicer program - add more details>>
-1. Create a slicer profile based on Monoprice's info ![settings](./images/slicer-settings.png).
+1. Create a slicer profile based on Monoprice's info [![settings](./images/slicer-settings-thumb.png)](./images/slicer-settings.png).
 
 ### Test Objects
 
@@ -120,6 +120,6 @@ There are variations in how each printer implements G-code. See [RepRap](https:/
 
 ## Do Dads
 
-* [Filament spool clip](https://www.thingiverse.com/thing:42528)
-* [Creative Studio's Smartphone Photo Studio](https://www.thingiverse.com/thing:1085472)
+* ![preview](./images/thingiverse-filament-clip-thumb.jpeg)[Filament spool clip](https://www.thingiverse.com/thing:42528)
+* ![preview](./images/thingiverse-Smartphone_Photo_Studio-thumb.jpeg)[Creative Studio's Smartphone Photo Studio](https://www.thingiverse.com/thing:1085472)
 
