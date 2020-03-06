@@ -1,0 +1,17 @@
+Print Settings
+
+Rafts:
+
+Yes
+
+Supports:
+
+No
+
+Resolution:
+
+0.1mm or higher
+
+Infill:
+
+30%
