@@ -1,7 +1,0 @@
-Instructions
-
-    infill: 33% infill or similar
-    extrusion width: 0.48mm
-    layerheight: 0.1mm
-    print time: about 30 minutes, depending on your printer & settings
-    raft: you can use a raft

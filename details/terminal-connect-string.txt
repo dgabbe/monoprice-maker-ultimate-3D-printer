@@ -19,3 +19,11 @@ echo:  M206 X0.00 Y0.00 Z0.25
 echo:PID settings:
 echo:   M301 P9.12 I0.41 D50.98
 echo:SD init fail
+
+>>> m115
+SENDING:M115
+FIRMWARE_NAME:Marlin Ultimaker2; Sprinter/grbl mashup for gen6
+FIRMWARE_URL:http://github.com/Ultimaker
+PROTOCOL_VERSION:1.0
+MACHINE_TYPE:Ultimaker
+EXTRUDER_COUNT:1
