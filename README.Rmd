@@ -45,7 +45,7 @@ See [profiles.md](./profiles.md) saved printer profiles which include stock and 
 
 _Likely to move to its own page_
 
-The build leveling function does not offer a way to cancel out once started. There is no built-in feature to review the bed levelness.
+The build leveling function does not offer a way to cancel out once started. There is no built-in feature to review the bed levelness.  You can do this with g-code {add details from my file}
 
 ## Calibration
 
@@ -58,6 +58,16 @@ Easiest to start with PLA filament because it's the most forgiving.
 1. Check build level using the printer's LCD menu option
 1. <<Select a slicer program - add more details>>
 1. Create a slicer profile based on Monoprice's info [![settings](./images/slicer-settings-thumb.png)](./images/slicer-settings.png).
+
+### Notes on Building a Profile
+
+Both Cura and PrusaSlicer offer a couple of different ways to store settings for future use.
+
+PrusaSlicer only provides profiles for its own printers.  Here are some notes on how I made ones for the Monoprice.
+
+To-do list:
+
+* Add details from https://hackaday.com/2016/08/30/review-monoprice-maker-ultimate-3d-printer/
 
 ### Test Objects
 
