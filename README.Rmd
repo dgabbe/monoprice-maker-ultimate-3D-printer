@@ -45,7 +45,7 @@ See [profiles.md](./profiles.md) saved printer profiles which include stock and 
 
 _Likely to move to its own page_
 
-The build leveling function does not offer a way to cancel out once started. There is no built-in feature to review the bed levelness.  You can do this with g-code {add details from my file}
+The build leveling function does not offer a way to cancel out once started. There is no built-in feature to review the bed levelness.  You can do this with g-code {add details from my file}.
 
 ## Calibration
 
@@ -61,13 +61,22 @@ Easiest to start with PLA filament because it's the most forgiving.
 
 ### Notes on Building a Profile
 
+_This section is a work-in-progress_
+
 Both Cura and PrusaSlicer offer a couple of different ways to store settings for future use.
 
 PrusaSlicer only provides profiles for its own printers.  Here are some notes on how I made ones for the Monoprice.
 
+1. Fine tuning hotend temperature, this [Temperature Tower](https://www.thingiverse.com/thing:2092820) was sliced and then the g-code edited to insert the commands to change the temperature. All files are [here](https://github.com/dgabbe/3D-test-objects/tree/master/TempTower).
+
 To-do list:
 
-* Add details from https://hackaday.com/2016/08/30/review-monoprice-maker-ultimate-3d-printer/
+* Add details from https://hackaday.com/2016/08/30/review-monoprice-maker-ultimate-3d-printer/ around speeds.
+* https://pinshape.com/blog/10-advanced-3d-slicer-settings-that-will-save-your-prints/
+* https://www.thingiverse.com/groups/wanhao-duplicator-6/forums/general/topic:17580
+* http://projects.ttlexceeded.com/3dprinting_maintenance.html
+* https://toms3d.org/2014/07/07/3d-printing-guides-tuning-speeds
+* Interesting [discussion](https://www.thingiverse.com/groups/i3/forums/general/topic:5539) on calibrating the extruder and [this](https://groups.google.com/forum/m/#!topic/wanhao-printer-3d/--RCeFXZmFk)
 
 ### Test Objects
 
@@ -110,15 +119,24 @@ The Monoprice uses
 
 ### Slicers
 
-{fill-in}
+* Info on customizing Cura w/[definition files](https://github.com/Ultimaker/Cura/wiki/Definition-Files-Explained)
+* Details for [PrusaSlicer](http://projects.ttlexceeded.com/3dprinting_prusaslicer.html) and https://forum.prusaprinters.org/forum/english-forum-general-discussion-announcements-and-releases/prusaslicer-ini-docs/
+* [PrintRun tutorial](https://all3dp.com/2/printrun-a-beginner-s-tutorial/) - may need to move out of this section.
 
 ## G-code Details
 
 There are variations in how each printer implements G-code. See [RepRap](https://reprap.org/wiki/G-code) for the reference specification.  Refer to 
-[this page](https://marlinfw.org/meta/gcode/) for Marlin specifics.
+[this page](https://marlinfw.org/meta/gcode/) for Marlin specifics. [G-code viewer](https://github.com/hudbrog/gCodeViewer).
+
+## Parts
+
+* [Micro-Swiss](https://store.micro-swiss.com/collections/wanhao-duplicator-6)
+* [Ultimate 3D Printing Store](https://ultimate3dprintingstore.com/collections/wanhao-duplicator-6-parts-department)
+* [BuildTak](https://www.buildtak.com/product-category/shop/). Monoprice support said the bed surface was PEI sheet.
 
 ## Resources
 
+* [Duplicator 6 Community Wiki!](https://3dprint.wiki/reprap/wanhao/duplicator6) as of March 2020, it is being ported over from [Google Sites](https://sites.google.com/site/duplicator6/)
 * [Thingiverse collection](https://www.thingiverse.com/Printer3D_One/collections/wanhao-duplicator-6-d6-amp-monoprice-maker-ultimate-printed-parts-and-improvements) of various parts
 * [Monoprice manual](https://downloads.monoprice.com/files/manuals/15710_Manual_160622.pdf)
 * [Wanhao manual](http://www.wanhao3dprinter.com/xiazai/D6_User_Manual_REV_A.pdf). The Wanhao manual is easier to understand than the Monoprice one.
