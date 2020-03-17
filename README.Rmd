@@ -11,21 +11,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Monoprice Maker Ultimate 3D Printer MK11 Direct Drive Extruder / 24V Power System
 
-Notes on setup/configuration for this Wanhao Duplicator 6 clone. Interestingly, it appears the Wanhao firmware is used in the Monoprice.  The manual also uses this name "Maker Select Pro Ultimate 3D" for the printer.  Specific experience with an open box model is [here](./open-box-experience.md).
+Notes on setup/configuration for this Wanhao Duplicator 6 clone which is a clone of the Ultimaker 2. Interestingly, it appears the Wanhao firmware is used in the Monoprice.  The manual also uses this name "Maker Select Pro Ultimate 3D" for the printer.  Specific experience with an open box model is [here](./open-box-experience.md).
 
+* Part no: 15710
 * Name: Monoprice Maker Ultimate 3D Printer, MK11 direct drive extruder / 24V power system.
 * Rear tag: Monoprice Maker Select Pro Ultimate 3D Printer
-* Part no: 15710
 * Firmware: DEV 3.01
-* Processor: Arduino Mega 2560 (as reported by System Info)
+* Firmware source: https://github.com/garychen99/Duplicator-6-firmware-version-3.1
+* G-codes implemented: https://github.com/garychen99/Duplicator-6-firmware-version-3.1#implemented-g-codes
+* Processor: Arduino Mega 2560 (as reported by MacOS System Info)
 
-Status when unpacked:
-
-* Machine on: 21:06
-* Printing: 7:05
-* Material: 12m
-
-## Tools
+## Maintenance Tools
 
 * [1mm feeler gauge](https://www.mcmaster.com/2283a26)
 * [0.004" feeler gauge](https://www.mcmaster.com/20385a34)
@@ -33,7 +29,7 @@ Status when unpacked:
 * Smooth jaw pliers
 * [0.015" dia High-Speed M2 Tool Steel Rod](https://www.mcmaster.com/3009a297) for unclogging nozzle. Will compare effectiveness to sewing needle.
 
-## Filaments
+## 3D Filaments
 
 See [filaments.md](./filaments.md) for settings and experience with different materials.
 
@@ -71,12 +67,16 @@ PrusaSlicer only provides profiles for its own printers.  Here are some notes on
 
 To-do list:
 
-* Add details from https://hackaday.com/2016/08/30/review-monoprice-maker-ultimate-3d-printer/ around speeds.
+* See Configuration.h for feed, speed, and acceleration values starting at line 364. `m501` will read the EEPROM values.
+* Add details from https://hackaday.com/2016/08/30/review-monoprice-maker-ultimate-3d-printer/ around speeds.  The position precision in the X and Y axes are 12.5 micron, in the Z is 5 micron. Suggested settings: x/y acceleration: 2K - 3K mm/sec2 print speed: 100mm/sec (down from 150mm/sec). Limiting factor is if the hotend can deliver enough filament.  At 300mm/sec and 0.1mm layer height the extruder started stripping the filament.
 * https://pinshape.com/blog/10-advanced-3d-slicer-settings-that-will-save-your-prints/
 * https://www.thingiverse.com/groups/wanhao-duplicator-6/forums/general/topic:17580
 * http://projects.ttlexceeded.com/3dprinting_maintenance.html
 * https://toms3d.org/2014/07/07/3d-printing-guides-tuning-speeds
 * Interesting [discussion](https://www.thingiverse.com/groups/i3/forums/general/topic:5539) on calibrating the extruder and [this](https://groups.google.com/forum/m/#!topic/wanhao-printer-3d/--RCeFXZmFk)
+* Errata: 1000 micron (micrometer) = 1mm; 1 micron = 0.001mm
+* Layer resolution: Ultra high: 20 micron; High: 60 micron; Medium: 100 micron; Low: 200 micron
+
 
 ### Test Objects
 
@@ -115,7 +115,7 @@ The *slicer* is the software needed to turn a 3D model into G-code.  The printer
 ### Firmware
 
 The Monoprice uses
-[Marlin](https://marlinfw.org/docs/basics/introduction.html#what-is-marlin?). Official support was added in ??build-get-reference??.
+[Marlin](https://marlinfw.org/docs/basics/introduction.html#what-is-marlin?).
 
 ### Slicers
 
@@ -146,7 +146,7 @@ There are variations in how each printer implements G-code. See [RepRap](https:/
 * [cnorth's settings](https://www.thingiverse.com/groups/wanhao-duplicator-6/forums/general/topic:17580)
 * https://othermod.com/turn-a-monoprice-maker-ultimate-or-wanhao-duplicator-6-into-an-ultimaker-2/
 
-## Do Dads
+## Doodads
 
 * ![preview](./images/thingiverse-filament-clip-thumb.jpeg)[Filament spool clip](https://www.thingiverse.com/thing:42528)
 * ![preview](./images/thingiverse-Smartphone_Photo_Studio-thumb.jpeg)[Creative Studio's Smartphone Photo Studio](https://www.thingiverse.com/thing:1085472)
