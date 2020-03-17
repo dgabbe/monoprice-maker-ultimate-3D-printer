@@ -17,6 +17,12 @@ The box arrived with a test passed sticker across the top seam. Initial inspecti
 
 Initial power-on and bed leveling were normal.
 
+Status when unpacked:
+
+* Machine on: 21:06
+* Printing: 7:05
+* Material: 12m
+
 ### Loading Filament
 
 Following the directions failed to get the filament to extrude from the nozzle. Clipping the end of the filament to 45ø made it easier to slide thru the extruder assembly. After heating the extruder 200øC, the nozzle was removed and revealed the problem. A solid piece of filament stuck in the cooling tube. The piece simply pulled out and the nozzle reassembled. Reinstalling the filament using the LCD menu option _fill in_ in short order had filament extruding from the nozzle.
