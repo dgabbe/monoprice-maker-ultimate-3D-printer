@@ -10,6 +10,12 @@ sent to Monoprice has gone unanswered.
 
 Initial power-on and bed leveling were normal.
 
+Status when unpacked:
+
+-   Machine on: 21:06
+-   Printing: 7:05
+-   Material: 12m
+
 ### Loading Filament
 
 Following the directions failed to get the filament to extrude from the

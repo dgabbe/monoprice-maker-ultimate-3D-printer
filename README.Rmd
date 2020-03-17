@@ -1,25 +1,45 @@
 ---
 title: "Monoprice Maker Ultimate 3D Printer"
 author: "David Gabbé"
-date: "2/28/2020"
-output: md_document
+date: "3/17/2020"
+output:
+  md_document:
+    toc: TRUE
+    toc_depth: 3
+  html_document:
+    toc: TRUE
+    toc_depth: 4
+    toc_float: TRUE
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Intro
 
-## Monoprice Maker Ultimate 3D Printer MK11 Direct Drive Extruder / 24V Power System
+I'm trying a Git/markdown combo for all the info about setting up, checking, and using this printer with the notion that our teenager could learn a few aspects of software development.
+
+## The Printer
+
+The printer's full name is _Monoprice Maker Ultimate 3D Printer MK11 Direct Drive Extruder / 24V Power System_.
 
 Notes on setup/configuration for this Wanhao Duplicator 6 clone which is a clone of the Ultimaker 2. Interestingly, it appears the Wanhao firmware is used in the Monoprice.  The manual also uses this name "Maker Select Pro Ultimate 3D" for the printer.  Specific experience with an open box model is [here](./open-box-experience.md).
 
 * Part no: 15710
 * Name: Monoprice Maker Ultimate 3D Printer, MK11 direct drive extruder / 24V power system.
 * Rear tag: Monoprice Maker Select Pro Ultimate 3D Printer
-* Firmware: DEV 3.01
-* Firmware source: https://github.com/garychen99/Duplicator-6-firmware-version-3.1
-* G-codes implemented: https://github.com/garychen99/Duplicator-6-firmware-version-3.1#implemented-g-codes
 * Processor: Arduino Mega 2560 (as reported by MacOS System Info)
+* Firmware flavor: [Marlin](https://marlinfw.org/)
+* Firmware version: DEV 3.01
+* Firmware source: The Wanhao firmware kept the Ultimaker strings in the `language.h` file.
+    * Wanhao: https://github.com/garychen99/Duplicator-6-firmware-version-3.1
+    * From M115 G-code: https://github.com/Ultimaker/Ultimaker2Marlin
+* G-codes implemented: https://github.com/garychen99/Duplicator-6-firmware-version-3.1#implemented-g-codes
+
+The manuals are:
+
+* [Monoprice manual](https://downloads.monoprice.com/files/manuals/15710_Manual_160622.pdf)
+* [Wanhao manual](http://www.wanhao3dprinter.com/xiazai/D6_User_Manual_REV_A.pdf). The Wanhao manual is easier to understand than the Monoprice one.
 
 ## Maintenance Tools
 
@@ -41,7 +61,14 @@ See [profiles.md](./profiles.md) saved printer profiles which include stock and 
 
 _Likely to move to its own page_
 
+### Bed Leveling and Z Axis 0
+
 The build leveling function does not offer a way to cancel out once started. There is no built-in feature to review the bed levelness.  You can do this with g-code {add details from my file}.
+
+To-do list:
+
+* https://3dprinting.stackexchange.com/questions/7264/how-to-set-the-z-home-offset
+
 
 ## Calibration
 
@@ -112,11 +139,6 @@ This info is unvetted:
 
 The *slicer* is the software needed to turn a 3D model into G-code.  The printer's *firmware* translates the G-code into control signals which drive the printer's different parts.
 
-### Firmware
-
-The Monoprice uses
-[Marlin](https://marlinfw.org/docs/basics/introduction.html#what-is-marlin?).
-
 ### Slicers
 
 * Info on customizing Cura w/[definition files](https://github.com/Ultimaker/Cura/wiki/Definition-Files-Explained)
@@ -136,15 +158,15 @@ There are variations in how each printer implements G-code. See [RepRap](https:/
 
 ## Resources
 
+* [Marlin Intro](https://marlinfw.org/docs/basics/introduction.html#what-is-marlin?)
 * [Duplicator 6 Community Wiki!](https://3dprint.wiki/reprap/wanhao/duplicator6) as of March 2020, it is being ported over from [Google Sites](https://sites.google.com/site/duplicator6/)
 * [Thingiverse collection](https://www.thingiverse.com/Printer3D_One/collections/wanhao-duplicator-6-d6-amp-monoprice-maker-ultimate-printed-parts-and-improvements) of various parts
-* [Monoprice manual](https://downloads.monoprice.com/files/manuals/15710_Manual_160622.pdf)
-* [Wanhao manual](http://www.wanhao3dprinter.com/xiazai/D6_User_Manual_REV_A.pdf). The Wanhao manual is easier to understand than the Monoprice one.
 
 ## Modifications and Settings
 
 * [cnorth's settings](https://www.thingiverse.com/groups/wanhao-duplicator-6/forums/general/topic:17580)
 * https://othermod.com/turn-a-monoprice-maker-ultimate-or-wanhao-duplicator-6-into-an-ultimaker-2/
+* _Advanced:_ [Add menu options to Marlin firmware LCD menu](https://3dprinting.stackexchange.com/questions/7676/)
 
 ## Doodads
 
