@@ -18,6 +18,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 After 2 open box and 1 brand new printer, it's fair to say that quality control lacking.
 
-* Marker pens
-* 5.5mm, 7mm, and 8mm tight clearance wrenches
+* Marker pens, not black (Sharpie and paint markers)
+* [5.5mm](https://www.mcmaster.com/8393A44), [7mm](https://www.mcmaster.com/8393A46), and [8mm](https://www.mcmaster.com/8393A47) tight clearance wrenches
+* 1.5mm, 2mm, 2.5mm, and 3mm [Wera Hex Plus](https://www.mcmaster.com/hex-plus-keys/system-of-measurement~metric/) keys
+* check 4mm and 5mm hex keys
 
