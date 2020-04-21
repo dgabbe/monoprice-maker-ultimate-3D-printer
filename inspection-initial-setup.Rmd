@@ -1,0 +1,23 @@
+---
+title: "Inspection and Initial Setup"
+author: "David Gabbé"
+date: "4/21/2020"
+output:
+  md_document:
+    toc: TRUE
+    toc_depth: 3
+  html_document:
+    toc: TRUE
+    toc_depth: 4
+    toc_float: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+After 2 open box and 1 brand new printer, it's fair to say that quality control lacking.
+
+* Marker pens
+* 5.5mm, 7mm, and 8mm tight clearance wrenches
+

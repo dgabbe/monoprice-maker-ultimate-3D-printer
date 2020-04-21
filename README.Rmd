@@ -1,7 +1,7 @@
 ---
 title: "Monoprice Maker Ultimate 3D Printer"
 author: "David Gabbé"
-date: "3/17/2020"
+date: "4/21/2020"
 output:
   md_document:
     toc: TRUE
@@ -40,6 +40,10 @@ The manuals are:
 
 * [Monoprice manual](https://downloads.monoprice.com/files/manuals/15710_Manual_160622.pdf)
 * [Wanhao manual](http://www.wanhao3dprinter.com/xiazai/D6_User_Manual_REV_A.pdf). The Wanhao manual is easier to understand than the Monoprice one.
+
+## **STOP! Do This First**
+
+Resist the urge to plug in your new shiny printer! Set aside 1 - 2 hours for a careful inspection. See [./Inspection and Initial Setup](inspection-initial-setup.md).
 
 ## Maintenance Tools
 
@@ -169,6 +173,8 @@ There are variations in how each printer implements G-code. See [RepRap](https:/
 * _Advanced:_ [Add menu options to Marlin firmware LCD menu](https://3dprinting.stackexchange.com/questions/7676/)
 
 ## Doodads
+
+Fun or useful things to print:
 
 * ![preview](./images/thingiverse-filament-clip-thumb.jpeg)[Filament spool clip](https://www.thingiverse.com/thing:42528)
 * ![preview](./images/thingiverse-Smartphone_Photo_Studio-thumb.jpeg)[Creative Studio's Smartphone Photo Studio](https://www.thingiverse.com/thing:1085472)

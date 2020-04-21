@@ -1,4 +1,4 @@
-;; Manual build leveling process.
+    ;; Manual build leveling process.
 ;; On 2nd pass of built-in build level process, z = -0.20
 
 ;; Use m115 to check for these values for m0 pausing to work
@@ -14,6 +14,8 @@ g28 ; home all axes
 g21 ; Set units to mm
 g90 ; absolute positioning
 
+>>> Set z0 to prevent any kind of crash!!!!
+
 ;; X & Y values are from build plate menu process
 ;; Start w/the front knob.
 g0 f1000 x92 y10
@@ -26,3 +28,7 @@ M0 Adjust gap to 0.004"
 ;; right rear knob
 g0 x152 y190
 M0 Adjust gap to 0.004"
+
+;; from io3dp
+;; middle of bed
+go x92 y100
