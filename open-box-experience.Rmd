@@ -42,3 +42,5 @@ Reading through [_Triffid Hunter's Calibration Guide_](https://reprap.org/wiki/T
 is how the printer should work with a cold hotend.
 
 Next procedure will be to tighten the bed springs and determine the compression range of the springs. The Monoprice is fitted a high quality type of spring called a _color coded die spring_.
+
+McMaster yellow die spring: https://www.mcmaster.com/1804n224
