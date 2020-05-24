@@ -1,0 +1,42 @@
+---
+title: "Bed Leveling"
+author: "David Gabbé"
+date: "4/23/2020"
+output:
+  html_document:
+    toc: TRUE
+    toc_depth: 4
+    toc_float: TRUE
+  md_document:
+    toc: TRUE
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intro
+
+The Monoprice control panel lets you level (or more accurately, tram) the bed w/the `BUILD-PLATE` choice. However, there's _no_ option to check the bed level.
+
+I want to check the levelness before any adjustments are made.  The peritent details extracted from the G-code are:
+
+```{c, eval=FALSE, echo=TRUE}
+#define LEVELING_OFFSET 0.1				// Assumed thickness of feeler gauge/paper used in leveling (mm)
+```
+
+```{c, eval=FALSE, echo=TRUE}
+code for leveling points used by build-plate menu option
+```
+
+## 0.004" (0.1mm) Setting
+
+Include some photos
+
+Include photo of nozzle
+
+The filament accumulation on the nozzle suggests that 0.004" is not enough clearance.  When the hotend was hot, 200C, and the nozzle clean, a 0.001" feeler gauge was thin enough to slip between the nozzle and bed.  
+
+## 0.006" (0.15mm) Setting
+

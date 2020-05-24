@@ -1,5 +1,6 @@
 -   [Intro](#intro)
 -   [The Printer](#the-printer)
+-   [**STOP! Do This First**](#stop-do-this-first)
 -   [Maintenance Tools](#maintenance-tools)
 -   [3D Filaments](#d-filaments)
 -   [Profiles](#profiles)
@@ -60,6 +61,13 @@ The manuals are:
 -   [Wanhao
     manual](http://www.wanhao3dprinter.com/xiazai/D6_User_Manual_REV_A.pdf).
     The Wanhao manual is easier to understand than the Monoprice one.
+
+**STOP! Do This First**
+-----------------------
+
+Resist the urge to plug in your new shiny printer! Set aside 1 - 2 hours
+for a careful inspection. See [Inspection and Initial
+Setup](inspection-initial-setup.md).
 
 Maintenance Tools
 -----------------
@@ -256,6 +264,8 @@ Modifications and Settings
 
 Doodads
 -------
+
+Fun or useful things to print:
 
 -   ![preview](./images/thingiverse-filament-clip-thumb.jpeg)[Filament
     spool clip](https://www.thingiverse.com/thing:42528)
