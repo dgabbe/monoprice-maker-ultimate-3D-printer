@@ -1,7 +1,7 @@
 ---
 title: "Monoprice Maker Ultimate 3D Printer"
 author: "David Gabbé"
-date: "4/21/2020"
+date: "5/27/2020"
 output:
   md_document:
     toc: TRUE
@@ -161,6 +161,14 @@ There are variations in how each printer implements G-code. See [RepRap](https:/
 * [BuildTak](https://www.buildtak.com/product-category/shop/). Monoprice support said the bed surface was PEI sheet.
 
 ## Resources
+
+The most helpful resources:
+
+* Best pics for _first layer calibration_, _bed leveling_, or _nozzle height_: https://help.prusa3d.com/en/article/first-layer-calibration_112364/
+* PrusaSlicer and printers: https://help.prusa3d.com/en/
+
+
+Other resources:
 
 * [Marlin Intro](https://marlinfw.org/docs/basics/introduction.html#what-is-marlin?)
 * [Duplicator 6 Community Wiki!](https://3dprint.wiki/reprap/wanhao/duplicator6) as of March 2020, it is being ported over from [Google Sites](https://sites.google.com/site/duplicator6/)
