@@ -44,3 +44,7 @@ is how the printer should work with a cold hotend.
 Next procedure will be to tighten the bed springs and determine the compression range of the springs. The Monoprice is fitted a high quality type of spring called a _color coded die spring_.
 
 McMaster yellow die spring: https://www.mcmaster.com/1804n224
+
+### New Printer
+
+X Stepper motor had loose belt tension.  Upon in inspection found only 3 of the 4 mounting screws good.  The 4th had a defective or stripped out thread hole on the motor.
