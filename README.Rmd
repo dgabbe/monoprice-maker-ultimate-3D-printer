@@ -166,6 +166,7 @@ The most helpful resources:
 
 * Best pics for _first layer calibration_, _bed leveling_, or _nozzle height_: https://help.prusa3d.com/en/article/first-layer-calibration_112364/
 * PrusaSlicer and printers: https://help.prusa3d.com/en/
+* Cura documentation: https://support.ultimaker.com/hc/en-us/sections/360003548339-Ultimaker-Cura
 
 
 Other resources:
